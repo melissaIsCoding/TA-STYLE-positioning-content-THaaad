@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*Customizations*/
+/* Header Customizations*/
+header {
+    background-color: #1D2D50;
+    margin: 0px auto;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+}
+
+.brand {
+    width: 30%;
+    text-align: left;
+    display: inline-block;
+   
+}
+h1 {
+    font-size: 54px;
+    font-style: bold;
+    color: #DAFFFB;
+    letter-spacing: 2px;
+    text-shadow: 3px 2px 2px rgb(157, 178, 191);
+    padding-left: 14px;
+}
+h4 {
+    color: #DDE6ED;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.nav-bar {
+    width: 69%;
+    text-align: right;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+nav {
+    font-size: 20px;
+  
+}
+a {
+    padding-right: 30px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #DDE6ED;
+}
+
+.search {
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+}
+
+/*article customizations*/
+section {
+   margin: 20px auto;
+   text-align: center;
+}
+.intro {
+    width: 46%;
+    height: 500px;
+    display: inline-block;
+    margin: 40px 30px;
+    vertical-align: top;
+
+}
+
+h2 {
+    color: #0A6EBD;
+    font-size: 62px;
+    font-weight: bold;
+    font-family: fantasy;
+    text-align: center;
+    padding: 30px;
+}
+p {
+    color: #133B5C;
+    font-size: 24px;
+    text-align:center;
+    padding: 2px 200px 20px 200px;
+}
+
+
+.intro-image {
+    width: 48%;
+    height: 500px;
+    display: inline-block;
+ 
+
+}
+img {
+    width: 600px;
+    height: 400px;   
+
+}
+
+
+
+
